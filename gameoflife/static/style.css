@@ -1,0 +1,19 @@
+#board
+{
+    display: grid;
+    grid-template-columns: repeat(50, 15px);
+    gap: 0;
+}
+
+.cell
+{
+    width: 15px;
+    height: 15px;
+
+    border: 1px solid #555;
+    box-sizing: border-box;
+}
+.alive
+{
+    background-color: black;
+}
